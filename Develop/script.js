@@ -2,7 +2,14 @@
 
 function myFunction() {
   let passwordLength = prompt("choose a password length of at least 8 characters and no more than 128 characters");
-  
+  if (passwordLength < 8) {
+    alert('Password length must be at least 8 characters');
+    return;  
+  }
+  if (passwordLength > 128) {
+  alert('Password length must be less than 128 characters');
+  return;
+  }
 }
 
 // Get references to the #generate element
