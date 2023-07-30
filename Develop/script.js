@@ -1,5 +1,9 @@
 // Assignment code here
-//adding a comment
+
+function myFunction() {
+  let passwordLength = prompt("choose a password length of at least 8 characters and no more than 128 characters");
+  
+}
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
