@@ -9,7 +9,7 @@ N/A
 
 ## Usage
 
-screenshots here
+[screenshot](/images/03-javascript-homework-demo.png)
 
 ## Credits
 
