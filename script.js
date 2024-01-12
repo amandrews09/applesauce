@@ -1,5 +1,3 @@
-// Assignment code here
-
 // Array of uppercase letters
 var uppercaseCharacters = [
   "A",
@@ -38,7 +36,7 @@ var lowercaseCharacters = [
   "e",
   "f",
   "g",
-  "h,",
+  "h",
   "i",
   "j",
   "k",
@@ -85,7 +83,8 @@ var specialCharacters = [
   ".",
 ];
 // Array of numbers
-var numberCharacters = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
+var numberCharacters = [
+  "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 
 //empty array to add string types from user
 var passwordChosenChar = [];
@@ -147,9 +146,9 @@ function generatePassword() {
   }
 
   for (var i = 0; i < passwordLength; i++) {
-    var possibleCharacters = getRandom(possibleCharacters);
-
-    result.push(possibleCharacters);
+    // var possibleCharacters = getRandom(possibleCharacters);
+    var randomCharacter = getRandom(possibleCharacters);
+    result.push(randomCharacter);
   }
 
   for (var i = 0; i < definiteCharacters.length; i++) {
